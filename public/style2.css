@@ -1,0 +1,138 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler .fa-bars {
+    color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler .fa-bars {
+    color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+    background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f7f7f7;
+}
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #000000;
+    font-size: 24px;
+}
+.nav-link {
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+    margin-right: 30px;
+}
+.jumbotron {
+    background-image: url("/assets/bg1.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jumbotron h1 {
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.jumbotron p {
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+.featured-section {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+.featured-section h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.featured-box {
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.featured-box img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.featured-box h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.featured-box p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.cta-section {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+.cta-section h .cta-section h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.cta-section p {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+.btn-primary {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.footer-section {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.footer-section a {
+    color: #ffffff;
+}

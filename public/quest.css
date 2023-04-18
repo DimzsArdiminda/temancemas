@@ -1,0 +1,40 @@
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #3c3665;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-color: #3c3665;
+}
+
+#nilai0 {
+    width: 10px;
+    height: 10px;
+}
+
+#nilai1 {
+    width: 15px;
+    height: 15px;
+}
+
+#nilai2 {
+    width: 20px;
+    height: 20px;
+}
+
+#nilai3 {
+    width: 25px;
+    height: 25px;
+}

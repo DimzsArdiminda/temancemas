@@ -1,0 +1,74 @@
+/* CSS HEX */
+.color {
+    /* CSS HEX */
+    --martinique: #3c3665;
+    --blush: #b63f71;
+    --prim: #efdfe5;
+    --purple-mountain: #a47ebb;
+    --tussock: #cd9d43;
+    --light-wisteria: #d1aad5;
+    --cadet-blue: #9da4c0;
+    --putty: #e5c68a;
+    --hampton: #e6d2b3;
+    --fruit-salad: #5f9e51;
+
+    /* SCSS RGB */
+    --martinique: rgba(60, 54, 101, 1);
+    --blush: rgba(182, 63, 113, 1);
+    --prim: rgba(239, 223, 229, 1);
+    --purple: rgba(164, 126, 187, 1);
+    --tussock: rgba(205, 157, 67, 1);
+    --light-wisteria: rgba(209, 170, 213, 1);
+    --cadet-blue: rgba(157, 164, 192, 1);
+    --putty: rgba(229, 198, 138, 1);
+    --hampton: rgba(230, 210, 179, 1);
+    --fruit-salad: rgba(95, 158, 81, 1);
+}
+
+.c1 {
+    color: #3c3665;
+}
+
+.c2 {
+    color: #b63f71;
+}
+
+.c3 {
+    color: #efdfe5;
+}
+
+.c4 {
+    color: #a47ebb;
+}
+
+.c5 {
+    color: #cd9d43;
+}
+
+.c6 {
+    color: #d1aad5;
+}
+
+.c7 {
+    color: #9da4c0;
+}
+
+.c8 {
+    color: #e5c68a;
+}
+
+.c9 {
+    color: #e6d2b3;
+}
+
+.c10 {
+    color: #5f9e51;
+}
+
+.c11 {
+    color: #385e2f;
+}
+
+.c12 {
+    color: #d6daea;
+}
